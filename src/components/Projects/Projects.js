@@ -8,10 +8,11 @@ import resturornt from "../../Assets/Projects/resturornt.png";
 import job from "../../Assets/Projects/job.png";
 import Book from "../../Assets/Projects/bookStore.png";
 import shopping from "../../Assets/Projects/shoppingStore.png";
-import shoppingStoreBackend from "../../Assets/Projects/shoppingStoreBackend.png"; 
+import shoppingStoreBackend from "../../Assets/Projects/shoppingStoreBackend.png";
 import adminDashboard from "../../Assets/Projects/AdminBord.png";
 import OVE from "../../Assets/Projects/OVE.png";
-
+import jainam from "../../Assets/Projects/jainam.com.png";
+import jainamD from "../../Assets/Projects/jainamD.png";
 
 function Projects() {
   return (
@@ -25,6 +26,33 @@ function Projects() {
           Here are a few projects I've worked on recently.
         </p>
         <Row style={{ justifyContent: "center", paddingBottom: "10px" }}>
+          <Col md={4} className="project-card">
+            <ProjectCard
+              imgPath={jainam}
+              isBlog={false}
+              title="JAINAM HOSPITAL"
+              description="🚑 JAINAM HOSPITAL.COM – AI Powered Dashboard Management System
+I have developed a highly professional and responsive Hospital Management System designed to streamline the complete patient and doctor experience using modern web technologies and a microservices architecture. The system supports seamless online appointment booking, real-time doctor consultations via video calls, live chat for instant support, and a secure medical report management system. Patients can easily view their appointment history, download medical reports, and communicate directly with healthcare professionals—all from a user-friendly dashboard.
+In addition to the core hospital functionalities, the platform integrates a full-fledged e-commerce module that allows patients to order medicines online with doorstep delivery. The interface is clean, elegant, and fully optimized for both mobile and desktop devices. An AI-powered assistant is integrated to help patients with appointment scheduling, symptom analysis, and general support, making the experience intelligent and efficient.
+Built on a robust microservices architecture, the system ensures high performance, scalability, and secure data management. Whether it's appointment booking, medicine ordering, or virtual consultation, everything is designed with user-first principles, professional design standards, and future-ready technologies.
+"
+              ghLink="https://github.com/Aayushajs/Jainam-Hospital-Frontend"
+              demoLink="https://jainam-hospital.netlify.app/"
+            />
+          </Col>
+          <Col md={4} className="project-card">
+            <ProjectCard
+              imgPath={jainamD}
+              isBlog={false}
+              title="AI PAWORD JAINAM DASHBOARD MENEGMENT SYSTEM"
+              description="📊 AI Powered Hospital Dashboard – Smart & Responsive Healthcare Control Panel
+The hospital dashboard I designed is a central, intelligent control panel that provides a powerful and professional interface for both doctors and administrators. Built with precision and modern UI/UX practices, the dashboard is fully responsive across all devices—from desktops to smartphones—ensuring smooth usability everywhere.
+At a glance, users can track live patient data, manage appointments, access medical reports, and monitor real-time analytics related to hospital operations. Each module—appointments, patient records, medicine orders, and video consultations—is neatly organized into dynamic, interactive cards and charts, offering a clutter-free and efficient user experience.The dashboard includes built-in AI assistance that helps staff with quick suggestions, smart filtering, patient prioritization, and automated alerts—enhancing productivity and decision-making speed. Integrated live chat and video consultation panels allow healthcare professionals to directly connect with patients from the dashboard itself.
+Additionally, the dashboard features medicine inventory tracking, order monitoring, and report generation tools that make the system a complete all-in-one solution for hospitals aiming to go digital. Developed on a microservices architecture, it ensures high scalability, security, and easy integration with third-party services like pharmacy APIs and appointment reminders via email or SMS."
+              ghLink="https://github.com/Aayushajs/Hospital-Dashboard"
+              demoLink="https://jainamdashbord.netlify.app/"
+            />
+          </Col>
           <Col md={4} className="project-card">
             <ProjectCard
               imgPath={Book}

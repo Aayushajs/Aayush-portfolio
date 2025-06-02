@@ -35,7 +35,7 @@ function NavBar() {
     >
       <Container>
         <Navbar.Brand href="/" className="d-flex">
-           <h1 style={{color:"#9279BA", fontSize:" 30px",fontFamily:"Sans-serif", fontWeight:"bold"}}>Aayush</h1>
+           <h1 style={{color:"#9279BA", fontSize:" 30px",fontFamily:"Sans-serif", fontWeight:"bold"}}>AAYUSH</h1>
         </Navbar.Brand>
         <Navbar.Toggle
           aria-controls="responsive-navbar-nav"
@@ -97,8 +97,6 @@ function NavBar() {
                 <ImBlog style={{ marginBottom: "2px" }} /> Education
               </Nav.Link>
             </Nav.Item>
-
-
             <Nav.Item>
               <Nav.Link
                 as={Link}

@@ -13,6 +13,7 @@ import {
 
 
 } from "react-icons/di";
+import { SiExpress, SiGitlab, SiMysql, SiTypescript, SiVite } from "react-icons/si";
  
 function Techstack() {
   return (
@@ -34,6 +35,21 @@ function Techstack() {
       </Col>
       <Col xs={4} md={2} className="tech-icons">
         <DiMongodb />
+      </Col>
+      <Col xs={4} md={2} className="tech-icons">
+        <SiVite />
+      </Col>
+      <Col xs={4} md={2} className="tech-icons">
+        <SiMysql />
+      </Col>
+      <Col xs={4} md={2} className="tech-icons">
+        <SiTypescript />
+      </Col>
+      <Col xs={4} md={2} className="tech-icons">
+        <SiExpress />
+      </Col>
+      <Col xs={4} md={2} className="tech-icons">
+        <SiGitlab/>
       </Col>
       <Col xs={4} md={2} className="tech-icons">
         <DiGit />

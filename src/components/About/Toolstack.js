@@ -1,11 +1,15 @@
 import React from "react";
 import { Col, Row } from "react-bootstrap";
+import { BsGithub, BsMicrosoftTeams } from "react-icons/bs";
 import {
   SiVisualstudiocode,
   SiPostman,
   SiVercel,
   SiNetlify,
-  SiCanva
+  SiCanva,
+  SiPostgresql,
+  SiJupyter,
+  SiMui
 } from "react-icons/si";
 
 function Toolstack() {
@@ -18,6 +22,21 @@ function Toolstack() {
       <Col xs={4} md={2} className="tech-icons">
         <SiPostman />
       </Col>
+      <Col xs={4} md={2} className="tech-icons">
+        <SiPostgresql/>
+      </Col>
+      <Col xs={4} md={2} className="tech-icons">
+        <SiJupyter/>
+      </Col>
+      <Col xs={4} md={2} className="tech-icons">
+        <BsGithub />
+      </Col>
+      <Col xs={4} md={2} className="tech-icons">
+        <SiMui />
+      </Col>
+      <Col xs={4} md={2} className="tech-icons">
+              <BsMicrosoftTeams />
+            </Col>
       <Col xs={4} md={2} className="tech-icons">
         <SiNetlify />
       </Col>
